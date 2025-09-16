@@ -33,7 +33,7 @@ def exercice4():
 @exercice
 def exercice5():
     PI = 3.1415926535
-    rayon = float(input("Entrer le rayon du cercle (en m) : "))   # float(.) fait une conversion de type vers float
+    rayon = int(input("Entrer le rayon du cercle (en m) : "))   # int(.) fait une conversion de type vers int
     # ******************** Votre code ci-dessous ********************
     
     # ******************** Votre code ci-dessus *********************
@@ -53,6 +53,13 @@ def exercice7():
     d = 7 % 2   # L'opérateur % est le "modulo", aussi écrit "mod" en maths
     print(f"{a} / {b} = {c:.2f}, reste = {d}")
 
+@exercice
+def exercice8():
+    n = int(input("Entrez un entier strictement supérieur à 1: "))
+    # ******************** Votre code ci-dessous ********************
+    
+    # ******************** Votre code ci-dessus *********************
+
 if __name__ == "__main__":
     # Astuce : commenter tous les exercices sauf celui en cours pour gagner du temps !
     exercice1()
@@ -62,3 +69,4 @@ if __name__ == "__main__":
     exercice5()
     exercice6()
     exercice7()
+    exercice8()

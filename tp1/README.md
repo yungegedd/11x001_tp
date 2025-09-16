@@ -74,7 +74,7 @@ PI = 3.1415926535
 - Le rayon du cercle est un nombre flottant et est demandé à l'utilisateur lors de l'exécution du programme, grâce à la fonction `input`. **/!\ Cette partie est déjà implémentée pour vous !** Comme on fera appel à `input` dans les prochains TPs, pour demander à l'utilisateur d'entrer une valeur, nous vous conseillons de commencer à observer son fonctionnement :
 
 ```python
-rayon = float(input("Entrez le rayon du cercle (en m) : ")) # message d'invitation (plus user-friendly). float(.) fait une conversion de type vers float
+rayon = int(input("Entrez le rayon du cercle (en m) : ")) # message d'invitation (plus user-friendly). int(.) fait une conversion de type vers int
 ```
 
 Il y a quelques différences avec le C que vous devriez faire attention plus tard.
@@ -123,4 +123,13 @@ Il affiche :
 ```
 **TODO**: Utilisez `/` à la place de `//` et regardez ce que vous obteniez.
 
+## Exercice 8 - Suite de Syracuse
 
+**TODO** : Essayez de coder la [suite de Syracuse](https://fr.wikipedia.org/wiki/Conjecture_de_Syracuse#Suite_de_Syracuse) en utilisant une boucle `while`, un `if`, un `else` et un `print` pour afficher $u_n$.
+
+C'est un exemple de code **itératif**.
+
+**Indices/Rappels** :
+- Pour voir si un nombre est pair, vous pouvez regarder si le reste
+de la division entière est zéro ou non (en utilisant l'opérateur modulo)
+- `x = x + 1` ou `x += 1` veut dire qu'on incrémente la valeur de `x` par 1
