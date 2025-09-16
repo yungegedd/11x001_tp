@@ -33,14 +33,14 @@ def exercice4():
 @exercice
 def exercice5():
     PI = 3.1415926535
-    rayon = input("Entrer le rayon du cercle (en m) : ")
+    rayon = float(input("Entrer le rayon du cercle (en m) : "))   # float(.) fait une conversion de type vers float
     # ******************** Votre code ci-dessous ********************
     
     # ******************** Votre code ci-dessus *********************
 
 @exercice
 def exercice6():
-    nb_of_days = input("Entrez un nombre de jours à convertir : ")
+    nb_of_days = int(input("Entrez un nombre de jours à convertir : "))
     # ******************** Votre code ci-dessous ********************
     
     # ******************** Votre code ci-dessus *********************

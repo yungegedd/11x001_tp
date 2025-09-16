@@ -74,7 +74,7 @@ PI = 3.1415926535
 - Le rayon du cercle est un nombre flottant et est demandé à l'utilisateur lors de l'exécution du programme, grâce à la fonction `input`. **/!\ Cette partie est déjà implémentée pour vous !** Comme on fera appel à `input` dans les prochains TPs, pour demander à l'utilisateur d'entrer une valeur, nous vous conseillons de commencer à observer son fonctionnement :
 
 ```python
-rayon = input("Entrez le rayon du cercle (en m) : ") # message d'invitation (plus user-friendly)
+rayon = float(input("Entrez le rayon du cercle (en m) : ")) # message d'invitation (plus user-friendly). float(.) fait une conversion de type vers float
 ```
 
 Il y a quelques différences avec le C que vous devriez faire attention plus tard.
