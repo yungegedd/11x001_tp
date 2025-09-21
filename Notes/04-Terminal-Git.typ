@@ -179,6 +179,8 @@
     ```bash
     ssh-keygen -t ed25519 -C "votre_email_ici@example.com"
     ```
+
+    Acceptez ensuite tout le reste en appuyant la touche Enter plusieurs fois
     
 
 - Tapez dans le terminal
