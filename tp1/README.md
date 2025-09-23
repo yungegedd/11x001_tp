@@ -112,7 +112,7 @@ print(f"Voici mon nombre: {x:.2f}")
 a = 7
 b = 2
 c = 7 // 2  # Ne modifier que cette ligne
-d = 7 % 2
+d = 7 % 2   # le % est l'opérateur modulo, cela donne le reste de la division euclidienne
 print(f"{a} / {b} = {c:.2f}, reste = {d}")
 ```
 
