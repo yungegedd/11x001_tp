@@ -1,0 +1,1 @@
+print("my age " + str(12))
